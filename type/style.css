@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.full{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.full .text{
+    font-size: 50px;
+}
+.full .mirror{
+    top: 0px;
+    font-size: 40px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: green;
+}
+.full .h1{
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+}
